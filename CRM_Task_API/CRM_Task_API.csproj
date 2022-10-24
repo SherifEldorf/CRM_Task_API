@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20221020074532_addproduct.cs" />
+    <Compile Remove="Migrations\20221020074532_addproduct.Designer.cs" />
+    <Compile Remove="Migrations\20221021085406_orders.cs" />
+    <Compile Remove="Migrations\20221021085406_orders.Designer.cs" />
+    <Compile Remove="Migrations\20221021092035_addCustomerToOrder.cs" />
+    <Compile Remove="Migrations\20221021092035_addCustomerToOrder.Designer.cs" />
+    <Compile Remove="Migrations\20221021092311_addCustomerToOrder.cs" />
+    <Compile Remove="Migrations\20221021092311_addCustomerToOrder.Designer.cs" />
+    <Compile Remove="Migrations\20221021092455_addCustomerToOrder.cs" />
+    <Compile Remove="Migrations\20221021092455_addCustomerToOrder.Designer.cs" />
+    <Compile Remove="Migrations\20221021092740_addCustomerToOrder.cs" />
+    <Compile Remove="Migrations\20221021092740_addCustomerToOrder.Designer.cs" />
+    <Compile Remove="Migrations\20221021093137_addCustomerToOrder.cs" />
+    <Compile Remove="Migrations\20221021093137_addCustomerToOrder.Designer.cs" />
+    <Compile Remove="Migrations\20221021093254_addCustomerToOrder2.cs" />
+    <Compile Remove="Migrations\20221021093254_addCustomerToOrder2.Designer.cs" />
+    <Compile Remove="Migrations\20221024203110_addcustomer1244.cs" />
+    <Compile Remove="Migrations\20221024203110_addcustomer1244.Designer.cs" />
+    <Compile Remove="Migrations\20221024205956_finalTrial.cs" />
+    <Compile Remove="Migrations\20221024205956_finalTrial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+
+</Project>
